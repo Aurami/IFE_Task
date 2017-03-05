@@ -1,0 +1,49 @@
+div {
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 16px;
+	float: right;
+}
+
+.team, .intro, .member {
+	box-sizing:border-box;
+	background-color: #fff;
+	height: 100%;
+}
+
+.show {
+	background-color: #eee;
+}
+
+.show::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.logo
+{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin: 0 auto;
+}
+
+.team {
+	width: 200px;
+	float: left;
+}
+
+.intro {
+	margin: 0 140px 0 220px;
+}
+
+.member {
+	width: 120px;
+	float: right;
+}
