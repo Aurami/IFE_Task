@@ -1,0 +1,24 @@
+.parent {
+	width: 400px;
+	height: 200px;
+	margin: 200px auto;
+	background-color: #ccc;
+	position: relative;
+}
+
+.child1, .child2 {
+	width: 50px;
+	height: 50px;
+	background-color: #fc0;
+}
+
+.child1 {
+	border-radius: 0 0 50px;
+}
+
+.child2 {
+	border-radius: 50px 0 0;
+	position: absolute;
+	top: 150px;
+	left: 350px;
+}
